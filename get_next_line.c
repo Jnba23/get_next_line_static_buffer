@@ -99,12 +99,3 @@ char	*get_next_line(int fd)
 		return (free(line), NULL);
 	return (line);
 }
-
-// int main()
-// {
-// 	int fd = open("txt.txt", O_RDONLY);
-// 	printf("%s", get_next_line(42));
-// 	printf("%s", get_next_line(fd));
-// // 	printf("%s", get_next_line(fd));
-// // 	printf("%s", get_next_line(fd));
-// }
